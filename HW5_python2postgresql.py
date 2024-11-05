@@ -5,14 +5,14 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 SERVER_PARAMS = {
     'dbname': 'postgres',  # подключаемся к существующей базе для создания новой
     'user': 'postgres',
-    'password': 'Poster346',
+    'password': 'Пароль',
     'host': 'localhost'
 }
 
 DB_PARAMS = {
     'dbname': 'client_db',  # имя новой базы данных
     'user': 'postgres',
-    'password': 'Poster346',
+    'password': 'Пароль',
     'host': 'localhost'
 }
 
